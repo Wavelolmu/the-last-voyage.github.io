@@ -1,0 +1,244 @@
+body {
+  
+  background: url(https://pp.userapi.com/c852224/v852224176/7874c/12XWBiDVE3Y.jpg);
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+#header {
+  color: #32fc32;
+  text-align: center;
+  position: relative;
+  top: 15px;
+  text-shadow: 2px 0px 0px black, 0px 2px 0px black, 0px -2px 0px black, -2px 0px 0px black;
+}
+
+#title {
+  font-family: verdana;
+}
+
+#description {
+  position: relative;
+  bottom: 15px;
+  font-family: verdana;
+  margin-bottom: 25px;
+}
+
+#form {
+  background-color: black;
+  margin: 0 auto;
+  width: 75%;
+  max-width: 750px;
+  padding: 20px;
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+
+span {
+  color: white;
+}
+
+.captions {
+   display: inline-block;
+  text-align: right;
+  color: #32fc32;
+  width: 37%;
+  padding: 5px;
+  vertical-align: top;
+  position: relative;
+  top: 10px;
+  font-size: 18px;
+  font-family: courier;
+}
+
+
+#boltone {
+  position: absolute;
+  z-index: 2;
+  float: left;
+  height: 140px;
+  bottom: 72%;
+  left: 30%;
+  transform: rotate(270deg);
+}
+
+#boltwo {
+  position: absolute;
+  z-index: 2;
+  float: left;
+  height: 140px;
+  bottom: 70%;
+  left: 59%;
+  transform: rotate(0deg);
+}
+
+.rightTab {
+   display: inline-block;
+  text-align: left;
+  width: 50%;
+  vertical-align: middle;
+}
+
+.input-field {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #32fc32;
+  background-color: black;
+  color: blue;
+  
+}
+
+::placeholder {
+  color: #32fc32;
+  font-family: monospace;
+  font-size: 14.5px;
+}
+
+
+.dropdown {
+  height: 32px;
+  width: 292px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #32fc32;
+  background-color: black;
+  color: blue;
+}
+
+ul {
+  color: blue;
+  font-family: arial;
+  margin-left: -35px;
+}
+
+.userRatings,
+input[type="checkbox"] {
+  float: left;
+  margin-right: 5px;
+}
+
+
+
+button {
+  position: relative;
+  left: 40%;
+  height: 34px;
+  width: 120px;
+  background-color: blue;
+  border: none;
+  margin-top: 5px;
+  font-family: verdana;
+}
+
+button:hover {
+  animation-name: red;
+  animation-duration: 25s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+
+@keyframes red {
+    5% {
+      background-color: red;
+      left: 8%;
+      width: 80%;
+    }
+   10% {
+      background-color: #32fc32;
+      left: 8%;
+      width: 80%;
+    }
+  15% {
+      background-color: red;
+      left: 8%;
+      width: 80%;
+    }
+   20% {
+      background-color: #32fc32;
+      left: 8%;
+      width: 80%;
+    }
+  25% {
+      background-color: red;
+      left: 8%;
+      width: 80%;
+    }
+   30% {
+      background-color: #32fc32;
+      left: 8%;
+      width: 80%;
+    }
+  35% {
+      background-color: red;
+      left: 8%;
+      width: 80%;
+    }
+   40% {
+      background-color: #32fc32;
+      left: 8%;
+      width: 80%;
+    }
+  45% {
+      background-color: red;
+      left: 8%;
+      width: 80%;
+    }
+   50% {
+      background-color: #32fc32;
+      left: 8%;
+      width: 80%;
+    }
+  55% {
+      background-color: red;
+      left: 8%;
+      width: 80%;
+    }
+   60% {
+      background-color: #32fc32;
+      left: 8%;
+      width: 80%;
+    }
+  65% {
+      background-color: red;
+      left: 8%;
+      width: 80%;
+    }
+   70% {
+      background-color: #32fc32;
+      left: 8%;
+      width: 80%;
+    }
+  75% {
+      background-color: red;
+      left: 8%;
+      width: 80%;
+    }
+   80% {
+      background-color: #32fc32;
+      left: 8%;
+      width: 80%;
+    }
+  85% {
+      background-color: red;
+      left: 8%;
+      width: 80%;
+    }
+   90% {
+      background-color: #32fc32;
+      left: 8%;
+      width: 80%;
+    }
+}
+
+textarea {
+  font-size: 16px;
+}
+
+audio {
+    opacity: 0;
+}

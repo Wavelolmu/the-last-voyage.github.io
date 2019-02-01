@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+<div id="header">
+  <h1 id="title">Soul selling</h1>
+<p id="description">automized system</p>
+</div>
+
+<img src="http://www.mikefenton.net/userimages/Horror01.gif" alt="cool demon" id="boltone">
+
+<img src="http://www.mikefenton.net/userimages/Horror01.gif" alt="cool demon" id="boltwo">
+
+<div id="form">
+  <form id="survey-form">
+    <div class="tab">
+    <div class="captions">
+      <label id="name-label" for="name">Name<span>*</span></label>
+    </div>  
+      <div class="rightTab">
+        <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'">
+      </div>
+    </div>
+    
+    <div class="tab">
+    <div class="captions">
+      <label id="email-label" for="email">Email<span>*</span></label>
+    </div>  
+      <div class="rightTab">
+        <input autofocus type="email" name="email" id="email" class="input-field" placeholder="Enter your email" required onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your email'">
+      </div>
+    </div>
+    
+    <div class="tab">
+    <div class="captions">
+      <label id="number-label" for="number">Age<span>*</span></label>
+    </div>  
+      <div class="rightTab">
+        <input autofocus type="number" name="number" id="number" class="input-field" placeholder="Enter your age" required onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your age'" min="1" max="150">
+      </div>
+    </div>
+    
+     <div class="tab">
+    <div class="captions">
+      <label id="dropdown">Favourite demon<span>*</span></label>
+    </div>  
+      <select id="dropdown" name="currentPos" class="dropdown">
+      <option disabled value>Select an option</option>
+      <option  value="student">Satanas</option>
+      <option value="job">Lucifer</option>
+      <option value="learner">Baal</option>
+      <option value="preferNo">Valac</option>
+      <option value="other">Other</option>
+    </select>
+      </div>
+    
+    <div class="captions">
+      <label id="number-label">What you wanna get<span>*</span></label>
+    </div>  
+     <div class="rightTab">
+        <ul style="list-style: none;">
+          <li class="radio"><label >Money<input name="radio-buttons" value="1"  type="radio" class="userRatings" ></label></li>
+          <li class="radio"><label>Power<input name="radio-buttons" value="2"  type="radio" class="userRatings" ></label></li>
+          <li class="radio"><label>Glory<input name="radio-buttons" value="3"  type="radio" class="userRatings" ></label></li>
+        </ul>
+      </div>
+    
+      <div class="captions">
+        <label for="preferences">Your sins<span>*</span></label>
+      </div>
+      <div class="rightTab">
+        <ul id="preferences" style="list-style: none;">
+          <li class="checkbox"><label class="sins" for="sins1"><input id="sins1" name="sins1" value="1" type="checkbox" class="userRatings">Lust</label></li>
+          <li class="checkbox"><label class="sins" for="sins2"><input name="sins2" id="sins2" value="1" type="checkbox" class="userRatings">Gluttony</label></li>
+          <li class="checkbox"><label class="sins" for="sins3"><input name="sins3" id="sins3" value="3" type="checkbox" class="userRatings">Greed</label></li>
+          <li class="checkbox"><label class="sins" for="sins4"><input name="sins4" id="sins4" value="4" type="checkbox" class="userRatings">Sloth</label></li>
+          <li class="checkbox"><label class="sins" for="sins5"><input name="sins5" id="sins5" value="5" type="checkbox" class="userRatings">Wrath</label></li>
+          <li class="checkbox"><label class="sins" for="sins6"><input name="sins6" id="sins6" value="6" type="checkbox" class="userRatings">Envy</label></li>
+          <li class="checkbox"><label class="sins" for="sins7"><input name="sins7" id="sins7" value="7" type="checkbox" class="userRatings">Pride</label></li>
+        </ul>
+      </div>
+
+    
+  <div class="tab">
+    <div class="captions">
+      <label id="text-label" for="text">Force words<span></span></label>
+    </div>  
+      <div class="rightTab">
+       <textarea id="comments" class="input-field" style="height:70px;resize:vertical;" name="comment" placeholder="Spell the unholy Codex Gigas words."></textarea>
+      </div>
+    </div>
+  
+    <button id="submit" type="submit">Deal</button>
+    
+      <iframe src="ave.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+      <audio id="player" autoplay loop>
+    <source src="audio/ave.mp3" type="audio/mp3">
+</audio>
+    
+</div>
+</div>
+  </form>
+</div>
+</body>
+
+</html>
